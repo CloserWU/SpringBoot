@@ -1,20 +1,22 @@
-
+# 文档块配置。仅yml方式
 server:
   port: 8081
 spring:
   profiles:
     active: prod
-
+# 激活prod环境 8084
+# 默认8081
 ---
 server:
   port: 8083
 spring:
   profiles: dev
 
-
+#声明dev环境
 ---
 
 server:
   port: 8084
 spring:
-  profiles: prod
+  profiles: prod  #指定属于哪个环境
+  #声明prod环境
