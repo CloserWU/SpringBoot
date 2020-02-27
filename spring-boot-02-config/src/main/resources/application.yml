@@ -3,7 +3,7 @@ server:
   port: 8081
 spring:
   profiles:
-    active: prod
+    active: dev
 # 激活prod环境 8084
 # 默认8081
 ---

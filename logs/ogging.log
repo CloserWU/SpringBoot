@@ -1,0 +1,22 @@
+2020-02-27 07:32:09 === [main] === INFO  === com.atguigu.springboot.SpringBoot03LoggingApplication ==== Starting SpringBoot03LoggingApplication on Closer with PID 2352 (D:\IDEA\spring-boot\spring-boot-03-logging\target\classes started by Closer in D:\IDEA\spring-boot)
+2020-02-27 07:32:09 === [main] === DEBUG === com.atguigu.springboot.SpringBoot03LoggingApplication ==== Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-27 07:32:09 === [main] === INFO  === com.atguigu.springboot.SpringBoot03LoggingApplication ==== No active profile set, falling back to default profiles: default
+2020-02-27 07:32:09 === [main] === INFO  === org.springframework.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+2020-02-27 07:32:10 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2020-02-27 07:32:10 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-27 07:32:10 === [main] === INFO  === org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2020-02-27 07:32:10 === [main] === INFO  === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1208 ms
+2020-02-27 07:32:10 === [main] === INFO  === org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 07:32:10 === [main] === INFO  === org.springframework.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 07:32:10 === [main] === INFO  === com.atguigu.springboot.SpringBoot03LoggingApplication ==== Started SpringBoot03LoggingApplication in 2.185 seconds (JVM running for 4.948)
+2020-02-27 07:35:30 === [main] === INFO  === com.atguigu.springboot.SpringBoot03LoggingApplication ==== Starting SpringBoot03LoggingApplication on Closer with PID 10536 (D:\IDEA\spring-boot\spring-boot-03-logging\target\classes started by Closer in D:\IDEA\spring-boot)
+2020-02-27 07:35:30 === [main] === DEBUG === com.atguigu.springboot.SpringBoot03LoggingApplication ==== Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-27 07:35:30 === [main] === INFO  === com.atguigu.springboot.SpringBoot03LoggingApplication ==== No active profile set, falling back to default profiles: default
+2020-02-27 07:35:31 === [main] === INFO  === org.springframework.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+2020-02-27 07:35:31 === [main] === INFO  === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+2020-02-27 07:35:31 === [main] === INFO  === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-27 07:35:31 === [main] === INFO  === org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] ==== Initializing Spring embedded WebApplicationContext
+2020-02-27 07:35:31 === [main] === INFO  === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 625 ms
+2020-02-27 07:35:31 === [main] === INFO  === org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-27 07:35:31 === [main] === INFO  === org.springframework.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-27 07:35:31 === [main] === INFO  === com.atguigu.springboot.SpringBoot03LoggingApplication ==== Started SpringBoot03LoggingApplication in 1.311 seconds (JVM running for 2.439)

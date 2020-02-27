@@ -22,11 +22,16 @@ import java.util.Map;
  * 只有这个组件是容器中的组件，才能容器提供的@ConfigurationProperties功能；
  *  @ConfigurationProperties(prefix = "person")默认从全局配置文件中获取值；
  *
+ *
+ *  要想从PropertySource指定配置文件中读取属性，需要两步
+ *  1.必须启用ConfigurationProperties注解告诉spring你要从文件中读取配置
+ *  2.要将application.yml/properties中关于person的属性注释掉，因为springboot本身配置文件优先级高，所以将不会从PropertySource中读取
+ *
  */
-//@PropertySource(value = {"classpath:person.properties"})
+@PropertySource(value = {"classpath:person.properties"})
 @Component
-@ConfigurationProperties(prefix = "person")
-//@Validated
+@ConfigurationProperties(prefix = "person")  // 这个注解需要spring-boot-configuration-processor包
+//@Validated  // 数据校验用 仅当@ConfigurationProperties中才生效 @Value无数据校验功能
 public class Person {
 
     /**
@@ -36,8 +41,9 @@ public class Person {
      */
 
    //lastName必须是邮箱格式
-   // @Email
-    //@Value("${person.last-name}")
+    @Email  // 校验规则仅当有@Validated时生效，且需配合@ConfigurationProperties
+//        @Value 表示 将applicaiton.yml中的属性注入
+//    @Value("${person.last-name}")
     private String lastName;
     //@Value("#{11*2}")
     private Integer age;
